@@ -1,0 +1,18 @@
+
+spring:
+  application:
+    name: sinerji-adriano
+  profiles:
+    active: dev
+  devtools:
+    add-properties: false
+  data:
+    mongodb:
+      uri: mongodb://admin:password@localhost:27017
+      authentication-database: admin
+      database: sinerji_db
+
+server:
+  config:
+    branch: develop
+  port: 8288
